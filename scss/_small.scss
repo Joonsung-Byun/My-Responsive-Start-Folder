@@ -20,7 +20,7 @@ html {
   }
 
  #headerWrapper {
-  background-color: #abc;
+  background-color: rgb(61, 166, 235);
   color: $secondaryColor;
  }
 
@@ -33,11 +33,12 @@ html {
     margin: 0;
     font-size: 1.2rem;
     font-weight: $normalWeight;
+    color: $tertiaryColor;
   }
  }
 
  #navWrapper {
-  background-color: bisque;
+  background-color: black ;
  }
 
  nav {
@@ -62,14 +63,14 @@ html {
     text-align: center;
     text-decoration: none;
     &:hover {
-      color: black;
+      color: #FFD700;
     }
   }
  }
 
  //begin the footer
  #footerWrapper {
-  background-color: cornsilk;
+  background-color: #000000;
  }
 
  footer {
@@ -77,6 +78,8 @@ html {
   p {
     margin: 0;
     font-weight: $lightWeight;
+    color: white;
+    text-align: center;
   }
  }
 
